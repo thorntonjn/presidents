@@ -1,6 +1,13 @@
 {
-  "name": "application-name",
+  "name": "presidents",
   "version": "0.0.1",
+  "description": "This is a game that helps you learn the 44 US presidents",
+  "main":"app.js",
+  "author" : "Joel Thornton",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thorntonjn/presidents.git"
+  },
   "private": true,
   "dependencies": {
     "express": "3.5.0",
