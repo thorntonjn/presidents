@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <sub-channel-name><%=sub_channel_name%></sub-channel-name>
+      
+  <!--   page = {
+title: "Learn All 44 Presidents",
+sub_channel_name: "All_PLAY_Mode",
+description: "Game to match and learn the 44 presidents of the United States",
+keywords: "44 presidents",
+} -->
+
+    <%- include partials/scripts.ejs %>
+    <%- include partials/stylesheets %>
+    <script type="text/javascript" src="js/individual-play.js"></script>
+  </head>
+
+<body id="index">
+<%- include partials/subnav.ejs  %>
+<div class="row-fluid">
+<%- include partials/play %>
+<%- include partials/all-presidents %>
+</div>
+<%- include partials/play-action %>
+<%- include partials/game-finished-modal %>
+</body>
+</html>
