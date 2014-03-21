@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <%- include partials/r-stylesheets.ejs %>
+    <%- include partials/scripts.ejs %>
+    <script type="text/javascript" src="js/individual-play.js"></script>
+  </head>
+
+<body id="index">
+<%- include partials/r-subnav.ejs  %>
+<div class="row-fluid">
+<%- include partials/play %>
+<%- include partials/all-presidents %>
+</div>
+<%- include partials/play-action %>
+<%- include partials/game-finished-modal %>
+</body>
+</html>

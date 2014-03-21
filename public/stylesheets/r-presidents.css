@@ -1,58 +1,58 @@
 
-.all-presidents {
+
+
+/*.all-presidents {*/
     /*margin: 20px;*/
     /*max-height: 400px;*/
     /*height:460px;*/
-    position: relative;
+    /*position: relative;*/
 
-}
+/*}*/
 
-.all-presidents img {
-    top:0px;
-    left:0px;
-    z-index:0;
-    max-height:400px;
-    height:400px;
-    width:auto;
-    position:absolute;
-}
+/*.all-presidents img {*/
+    /*top:0px;*/
+    /*left:0px;*/
+    /*z-index:0;*/
+    /*max-height:400px;*/
+    /*position:absolute;*/
+/*}*/
 
-div.results {
-    position:relative;
-}
+/*div.results {*/
+    /*position:relative;*/
+/*}*/
 
-#waytogo {
+/*#waytogo {*/
     /*position: absolute;*/
     /*top: 368px;*/
-    top:0px;
-    left: 311px;
+    /*top:0px;*/
+    /*left: 311px;*/
     /*height:180px;*/
     /*width:280px;*/
     /*z-index: 10;*/
     /*background-image:url('../images/bushwink.jpg');*/
-}
+/*}*/
 
-#play {
+/*#play {*/
     /*position: absolute;*/
-    top: 0px;
-    left: 250px;
+    /*top: 0px;*/
+    /*left: 250px;*/
     /*height: 500px;*/
-}
+/*}*/
 
-#play .label-info {
-    margin-top:20px;
-    margin-bottom: 20px;
-}
+/*#play .label-info {*/
+    /*margin-top:20px;*/
+    /*margin-bottom: 20px;*/
+/*}*/
 
-#tryAgain {
+/*#tryAgain {*/
     /*position: absolute;*/
     /*top: 368px;*/
-    left: 286px;
+    /*left: 286px;*/
     /*height:250px;*/
     /*width:200px;*/
     /*z-index: 10;*/
     /*background-image:url('../images/georgewashingtonwink.jpg');*/
-}
+/*}*/
 
 
 /*#waytogo3 {*/
@@ -65,119 +65,119 @@ div.results {
     /*background-image:url('../images/obamathumbsup.jpg');*/
 /*}*/
 
-body {
-    padding: 0;
-    text-align: center;
-}
-.container {
-    width:100%;
-}
+/*body {*/
+    /*padding: 0;*/
+    /*text-align: center;*/
+/*}*/
+/*.container {*/
+    /*width:100%;*/
+/*}*/
 
-#image-found-banner, #image-selection-banner {
-    width: 100%;
+/*#image-found-banner, #image-selection-banner {*/
+    /*width: 100%;*/
     /*padding-bottom: 0px;*/
     /*border: 1px solid #bfbfbf;*/
-    margin: 0 auto;
-    position: relative;
+    /*margin: 0 auto;*/
+    /*position: relative;*/
     /*position: fixed;*/
-}
+/*}*/
 
 
-#image-found-banner img {
-    height: 75px;
-    width: 75px;
-    float:left;
-}
+/*#image-found-banner img {*/
+    /*height: 75px;*/
+    /*width: 75px;*/
+    /*float:left;*/
+/*}*/
 
-#image-selection-banner img {
-    height:150px;
-    width:150px;
-}
+/*#image-selection-banner img {*/
+    /*height:150px;*/
+    /*width:150px;*/
+/*}*/
 
-#window, #window2 {
-    width: 400px;
-    height: 150px;
+/*#window, #window2 {*/
+    /*width: 400px;*/
+    /*height: 150px;*/
     /*padding: 10px;*/
     /*border: 3px solid #666;*/
-    margin: 0 auto;
-}
+    /*margin: 0 auto;*/
+/*}*/
 
-.box, .box2, .image-box {
+/*.box, .box2, .image-box {*/
     /*height: 150px;*/
     /*width: 150px;*/
     /*border: 1px solid #666666;*/
     /*position: absolute;*/
     /*z-index: -1;*/
-    float:left;
-}
+    /*float:left;*/
+/*}*/
 
-#try-another-president {
+/*#try-another-president {*/
     /*margin: 50%;*/
-}
+/*}*/
 
-.red { background-color: #ff6868;}
-.green { background-color: #7cd980;}
-.blue { background-color: #5793ea;}
-.yellow { background-color: #f9f69e;}
-.purple { background-color: #ffbffc;}
-.cyan { background-color: #bff3ff;}
+/*.red { background-color: #ff6868;}*/
+/*.green { background-color: #7cd980;}*/
+/*.blue { background-color: #5793ea;}*/
+/*.yellow { background-color: #f9f69e;}*/
+/*.purple { background-color: #ffbffc;}*/
+/*.cyan { background-color: #bff3ff;}*/
 
-#submit-president-name, #input-president-name {
-    margin:10px;
-}
+/*#submit-president-name, #input-president-name {*/
+    /*margin:10px;*/
+/*}*/
 
-#image-selection-banner div.scrollableArea *
-{
-    position: relative;
-    display: block;
-    float: left;
-    margin: 0;
-    padding: 0;
+/*#image-selection-banner div.scrollableArea **/
+/*{*/
+    /*position: relative;*/
+    /*display: block;*/
+    /*float: left;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
     /*min-width:8000px;*/
-    /* If you don't want the images in the scroller to be selectable, try the following
-        block of code. It's just a nice feature that prevent the images from
-        accidentally becoming selected/inverted when the user interacts with the scroller. */
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
+    /* If you don't want the images in the scroller to be selectable, try the following*/
+        /*block of code. It's just a nice feature that prevent the images from*/
+        /*accidentally becoming selected/inverted when the user interacts with the scroller. */
+    /*-webkit-user-select: none;*/
+    /*-khtml-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-o-user-select: none;*/
+    /*user-select: none;*/
+/*}*/
 
-#image-selection-banner div.scrollableArea
-{
-    width:6600px;
-    margin-left:161px;
-}
+/*#image-selection-banner div.scrollableArea*/
+/*{*/
+    /*width:6600px;*/
+    /*margin-left:161px;*/
+/*}*/
 
-#selectImageBelow {
-    font-size: 18px;
-    padding: 10px;
-}
+/*#selectImageBelow {*/
+    /*font-size: 18px;*/
+    /*padding: 10px;*/
+/*}*/
 
-#current-president-image {
-    height:255px;
-}
+/*#current-president-image {*/
+    /*height:255px;*/
+/*}*/
 
-.all-presidents .badge {
-    position:absolute;
-    visibility: hidden;
-    z-index: 11;
-}
+/*.all-presidents .badge {*/
+    /*position:absolute;*/
+    /*visibility: hidden;*/
+    /*z-index: 11;*/
+/*}*/
 
-.all-presidents .badge.found {
-    visibility: visible;
-}
+/*.all-presidents .badge.found {*/
+    /*visibility: visible;*/
+/*}*/
 
-.all-presidents .badge:hover,
-.all-presidents .badge.hover_effect{
-    rule:properties;
-}
+/*.all-presidents .badge:hover,*/
+/*.all-presidents .badge.hover_effect{*/
+    /*rule:properties;*/
+/*}*/
 
-.hover {
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-}
+/*.hover {*/
+    /*-webkit-user-select: none;*/
+    /*-webkit-touch-callout: none;*/
+/*}*/
 
 #George_Washington_badge_1 {top:251px; left:60px;}
 #John_Adams_badge_2 {top:281px; left:150px;}

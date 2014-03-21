@@ -2,8 +2,7 @@
 <html>
   <head>
     <title><%=title%></title>
-    <sub-channel-name><%=sub_channel_name%></sub-channel-name>
-      
+
   <!--   page = {
 title: "Learn All 44 Presidents",
 sub_channel_name: "All_PLAY_Mode",
@@ -17,12 +16,12 @@ keywords: "44 presidents",
   </head>
 
 <body id="index">
-<%- include partials/subnav.ejs  %>
-<div class="row-fluid">
-<%- include partials/play %>
-<%- include partials/all-presidents %>
-</div>
-<%- include partials/play-action %>
-<%- include partials/game-finished-modal %>
+	<%- include partials/subnav.ejs  %>
+	<div class="row-fluid">
+		<%- include partials/play %>
+		<%- include partials/all-presidents %>
+	</div>
+	<%- include partials/play-action %>
+	<%- include partials/game-finished-modal %>
 </body>
 </html>

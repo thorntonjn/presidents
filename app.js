@@ -38,6 +38,10 @@ app.get('/', routes.index);
 app.get('/all', routes.all);
 app.get('/team1', routes.team1);
 app.get('/team2', routes.team2);
+app.get('/r-all', routes.r_all);
+app.get('/r-team1', routes.r_team1);
+app.get('/r-team2', routes.r_team2);
+app.get('/responsive', routes.responsive);
 // app.get('/users', user.list);
 
 // routes = require('./routes/index2')(app);
